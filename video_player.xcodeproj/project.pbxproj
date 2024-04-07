@@ -16,6 +16,7 @@
 		B7C6C0FE2BC31B5F005C1A3F /* video_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C0FD2BC31B5F005C1A3F /* video_playerTests.swift */; };
 		B7C6C1082BC31B5F005C1A3F /* video_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C1072BC31B5F005C1A3F /* video_playerUITests.swift */; };
 		B7C6C10A2BC31B5F005C1A3F /* video_playerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6C1092BC31B5F005C1A3F /* video_playerUITestsLaunchTests.swift */; };
+		B7C6C1172BC31BAF005C1A3F /* Spotify.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B7C6C1162BC31BAF005C1A3F /* Spotify.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B7C6C1032BC31B5F005C1A3F /* video_playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = video_playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C6C1072BC31B5F005C1A3F /* video_playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITests.swift; sourceTree = "<group>"; };
 		B7C6C1092BC31B5F005C1A3F /* video_playerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7C6C1162BC31BAF005C1A3F /* Spotify.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spotify.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B7C6C0E52BC31B5E005C1A3F /* video_player */ = {
 			isa = PBXGroup;
 			children = (
+				B7C6C1162BC31BAF005C1A3F /* Spotify.mp4 */,
 				B7C6C0E62BC31B5E005C1A3F /* AppDelegate.swift */,
 				B7C6C0E82BC31B5E005C1A3F /* SceneDelegate.swift */,
 				B7C6C0EA2BC31B5E005C1A3F /* ViewController.swift */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C6C1172BC31BAF005C1A3F /* Spotify.mp4 in Resources */,
 				B7C6C0F02BC31B5F005C1A3F /* Assets.xcassets in Resources */,
 				B7C6C0F32BC31B5F005C1A3F /* Base in Resources */,
 				B7C6C0EE2BC31B5E005C1A3F /* Base in Resources */,
@@ -456,9 +460,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "maggie.video-player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,9 +491,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "maggie.video-player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
